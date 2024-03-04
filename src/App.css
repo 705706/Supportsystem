@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.dash-header {
+  height: 3rem;
+  background-color: #cc80ff;
+}
+.welcomemessage {
+  display: inline-block;
+  margin-left: 500px;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.admin {
+  background-color: aqua;
+}
+.dash-sec {
+  border: 2px solid slategrey;
+  height: 400px;
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  background-color: aliceblue;
+}
+.dash-sec label {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.dash-sec button {
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+  cursor: pointer;
+}
+.tabledata {
+  margin: auto;
+  border: 2px solid black;
+}
+.tabledata button {
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 5px 10px;
+  color: aliceblue;
+}
+.black-btn {
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 5px 10px;
+  color: aliceblue;
+}
+.white-btn {
+  border-radius: 5px;
+  border: none;
+  background-color: yellow;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 5px 10px;
+  color: aliceblue;
+}
+.tech-head,
+.admin-head {
+  height: 4rem;
+  background-color: #cc80ff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.dash-header button {
+  display: absolute;
+  float: right;
+  font-size: 1rem;
+  padding: 10px 10px;
+  background-color: red;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.tech-data {
+  margin: auto;
+  border: 2px solid #cc80ff;
+}
+.tech-data table {
+  align-items: center;
+  margin: auto;
+  padding: 100px 10px;
+}
+.btn {
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 5px 10px;
+  color: aliceblue;
+}
+.btn1 {
+  border-radius: 2px;
+  border: none;
+  padding: 5px 5px;
+}
+.admin-info {
+  margin: auto;
+  text-align: center;
+}
+.admin-info table {
+  margin: auto;
+  border: 2px solid #cc80ff;
+}
+.home {
+  background-image: url(https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  height: 100vh;
+  background-size: cover;
+}
+.home h1 {
+  text-align: center;
+}
+.homea {
+  font-size: 3rem;
+  color: wheat;
+}
+.home h1 {
+  font-size: 3rem;
+}
+footer {
+  display: absolute;
+  margin-top: 30rem;
+  height: 2rem;
+  background-color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.row.highlighted {
+  background-color: gray; /* Change to your desired color */
+}
+.logout {
+  display: absolute;
+  float: right;
+  font-size: 1.2rem;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(239, 75, 75);
+  cursor: pointer;
+}
